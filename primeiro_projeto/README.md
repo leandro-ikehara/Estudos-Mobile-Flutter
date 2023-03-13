@@ -1,16 +1,5 @@
-# primeiro_projeto1
+## Conhecendo o Flutter
 
-Meu primeiro projeto em Flutter
+Neste primeiro passo, você conhecerá mais sobre o Flutter, como ele pode ser utilizado e ainda aprenderá a configurar o ambiente de desenvolvimento necessário para iniciar seus projetos.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Além disso, você conhecerá os widgets e o que são os famosos stateless e stateful. Impelmentará imagens e animações simples no seu projeto, assim como entenderá o que são Controllers (utilizados em Formulários) e explorará os conceitos de navegação e de estado.
