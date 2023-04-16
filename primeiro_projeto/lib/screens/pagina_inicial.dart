@@ -27,7 +27,9 @@ class _LandingPageState extends State<LandingPage> {
           Navigator.push(
             context,
             MaterialPageRoute(
-              builder: (contextNew) => FormScreen(taskContext: context,),
+              builder: (contextNew) => FormScreen(
+                taskContext: context,
+              ),
             ),
           );
         },

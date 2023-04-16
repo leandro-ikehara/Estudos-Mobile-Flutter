@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:primeiro_projeto1/screens/form_screen.dart';
-import 'package:primeiro_projeto1/screens/landing_page.dart';
+import 'package:primeiro_projeto1/data/tarefa_herdada.dart';
+import 'package:primeiro_projeto1/screens/pagina_inicial.dart';
 
 void main() {
   runApp(const MyApp());
@@ -9,17 +9,14 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
 
-@override
+  @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const FormScreen(),
+      home: TaskInherited(child: const LandingPage()),
     );
   }
 }
-
-
-

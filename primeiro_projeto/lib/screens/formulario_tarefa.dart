@@ -17,17 +17,16 @@ class _FormScreenState extends State<FormScreen> {
 
   final _formKey = GlobalKey<FormState>();
 
-  bool valueValidator(String? value){
-    if(value != null && value.isEmpty){
+  bool valueValidator(String? value) {
+    if (value != null && value.isEmpty) {
       return true;
     }
     return false;
   }
 
-  bool difficultyValidator(String? value){
-    if(value != null && value.isEmpty){
-      if(int.parse(value) > 5 ||
-          int.parse(value) < 1){
+  bool difficultyValidator(String? value) {
+    if (value != null && value.isEmpty) {
+      if (int.parse(value) > 5 || int.parse(value) < 1) {
         return true;
       }
     }
